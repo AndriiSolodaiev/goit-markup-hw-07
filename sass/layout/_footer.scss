@@ -1,0 +1,46 @@
+.page-footer {
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page-footer-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.footer-social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--trans-dur-t-func);
+}
+
+.footer-social-icon {
+    fill: var(--title-text-color-dark-bcgr);
+    transition: fill var(--trans-dur-t-func);
+}
+
+.adress-social-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+
+}
+
+.social-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 206px;
+}
+
+.social-invite-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color-dark-bcgr);
+    margin-bottom: 20px;
+}
