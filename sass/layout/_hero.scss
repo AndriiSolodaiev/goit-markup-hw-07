@@ -9,10 +9,8 @@
 }
 
 .hero-container {
-    display: flex;
+    @include align;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 30px;
 }

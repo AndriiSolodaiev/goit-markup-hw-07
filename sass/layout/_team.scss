@@ -2,22 +2,12 @@
     background-color: var(--border-color);
 }
 
-.team-title {
-    margin-bottom: 50px;
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--title-text-color);
-}
-
 .team-list {
     display: flex;
     gap: 30px;
 }
 
-.team-member {
+.team-list__item {
     align-items: center;
 
     background-color: var(--title-text-color-dark-bcgr);
@@ -25,12 +15,12 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.member-wrapper {
+.team-list__member-info-wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.member-name {
+.team-list__member-name {
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -40,7 +30,7 @@
     color: var(--title-text-color);
 }
 
-.member-position {
+.team-list__member-position {
     margin-bottom: 16px;
 
     font-size: 16px;

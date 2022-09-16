@@ -1,4 +1,4 @@
-.backdrop.is-hidden .modal {
+.is-hidden .modal {
     transform: translate(-50%, -50%) scale(1.2);
 }
 
@@ -19,9 +19,7 @@
 
 .btn-close-modal {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include align;
     top: 8px;
     right: 8px;
     height: 30px;

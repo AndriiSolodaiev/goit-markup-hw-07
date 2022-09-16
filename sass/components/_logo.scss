@@ -6,13 +6,15 @@
     font-size: 26px;
     line-height: 1.19;
     color: var(--secondary-logo-color);
+    
+    &__first-part {
+            color: var(--accent-color);
+        }
 }
 
-.logo-first-part {
-    color: var(--accent-color);
-}
 
-.logo-footer {
+
+.logo_theme_dark {
     color: var(--title-text-color-dark-bcgr);
     margin-bottom: 20px;
     margin-right: 0;
